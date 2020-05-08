@@ -1,0 +1,173 @@
+body{
+    margin: 0 auto;
+    font-family: 'TsukuARdGothic-Regular',sans-serif;
+    color: #707070;
+}
+
+#main{
+    background: #F0F8FF;
+}
+
+.wrapper{
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+
+/* タイトル */
+.start-text{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+/* 送信ボタン */
+.btn{
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: #707070;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.btn:hover{
+    background: #ababab;
+    cursor: pointer;
+}
+
+/* 手伝う（いいよ！）ボタン */
+.hlp-btn:hover{
+    background: #e8bebe; 
+}
+
+/* 太陽の画像 */
+.sun-img{
+    position: relative;
+    top: 3em;
+    left: 5em;
+}
+
+/* ハリネズミくんの画像 */
+.harinezumi-img{
+    position: relative;
+    bottom: -2em;
+    right: -45em;
+}
+
+.animal-img{
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.game-container{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+}
+
+.animal{
+    margin-right: 80px;
+}
+
+/* 仲間の名前 */
+.animal-name{
+    text-align: center;
+}
+
+/* 仲間のコメント */
+.comment{
+    background: #ffffff;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* お手伝いのこり */
+.work-info{
+    font-weight: bold;
+    text-align: center;
+}
+
+.player{
+    width: 450px;
+}
+
+.player-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ログ */
+.log{
+    height: 300px;
+}
+
+.log-container{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+    height: 270px;
+}
+
+.log-right{
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+    height: 220px;
+    width: 450px;
+    margin-right: 100px;
+}
+
+.log-left{
+    padding: 10px 15px 0 15px;
+}
+
+.harinezumi-info{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.hp{
+    margin-bottom: 0;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+}
+
+.coin-img{
+    margin-right: 30px;
+}
+
+/*========================================
+  フッター
+========================================*/
+footer{
+    background: #A7D28D;
+    height: 140px;
+    width: 100%;
+}
