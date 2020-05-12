@@ -5,3 +5,5 @@ PHPオブジェクト指向のアウトプットとして作成しました。<b
 
 【使用言語】 HTML / CSS / PHP<br>
 【制作時間】 14時間<br>
+
+![game1](https://user-images.githubusercontent.com/65000342/81679337-1f05e100-948d-11ea-80f1-86ef5f90166e.png)
